@@ -8,6 +8,10 @@
 		<title>Insert title here</title>
 	</head>
 <body>
-	${"Hello World!"}
+	<form name="username" action="" method="post">
+		Введите имя:<input type="text" name="first-name" size="20"><br>
+		Введите фамилию:<input type="text" name="last-name" size="20"><br>
+		<input type="submit" name="Отправить">
+	</form>
 </body>
 </html>
