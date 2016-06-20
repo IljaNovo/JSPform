@@ -8,10 +8,10 @@
 		<title>Insert title here</title>
 	</head>
 <body>
-	<form name="username" action="" method="post">
+	<form name="username" action="Server" method="post">
 		Введите имя:<input type="text" name="first-name" size="20"><br>
 		Введите фамилию:<input type="text" name="last-name" size="20"><br>
-		<input type="submit" name="Отправить">
+		<input type="submit" value="Отправить">
 	</form>
 </body>
 </html>
